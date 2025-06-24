@@ -50,7 +50,9 @@ activities = {
         "description": "Practice basketball skills and play friendly matches",
         "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
         "max_participants": 15,
-
+        "participants": ["lucas@mergington.edu", "mia@mergington.edu"]
+    }
+}
 
 @app.get("/")
 def root():
